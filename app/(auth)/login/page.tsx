@@ -9,11 +9,12 @@ const Home = () => {
   );
   return (
     <div className="flex min-h-screen">
-      <Leftbanner />
-      <div className=" bg-white flex flex-col">
-        <div className="">
-          <Login />
-        </div>
+      <div className="w-1/2">
+        <Leftbanner />
+      </div>
+
+      <div className=" bg-white flex flex-col w-full">
+        <Login />
       </div>
     </div>
   );
