@@ -57,8 +57,8 @@ export const Leftbanner = () => {
                 fill="white"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M160.868 125.363L71.2489 149.376L111.463 250.311L176.508 232.882L160.868 125.363ZM69.1609 141.584C64.4955 142.834 61.9666 147.875 63.7543 152.362L103.969 253.297C105.483 257.097 109.601 259.162 113.551 258.104L178.596 240.675C182.547 239.616 185.081 235.769 184.492 231.721L168.851 124.202C168.156 119.422 163.445 116.32 158.78 117.57L69.1609 141.584Z"
                 fill="white"
               />
@@ -81,8 +81,8 @@ export const Leftbanner = () => {
               Fund your creative work
             </span>
             <span className="text-center text-[16px] font-light leading-6">
-              Accept support. Start a membership. Setup a shop. It’s easier than
-              you think.
+              Accept support. Start a membership. Setup a shop. It’s easier{" "}
+              <br /> than you think.
             </span>
           </div>
         </div>
